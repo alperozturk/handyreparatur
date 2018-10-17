@@ -527,6 +527,10 @@ footer small {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	
+	#hero > div > div > div.col-lg-5.col-md-5.col-sm-5.col-xs-5{	
+	display: none;
+	}
 	h2 {
 		font-size: 34px!important;
 		margin-bottom: 20px;
