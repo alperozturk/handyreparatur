@@ -699,3 +699,9 @@ footer small {
 		margin-left: 10px;
 	}
 }
+
+/* Testimonial row sits outside a .container: cancel Bootstrap row margins to avoid horizontal page scroll on mobile */
+#testimonial > .row {
+	margin-left: 0;
+	margin-right: 0;
+}
