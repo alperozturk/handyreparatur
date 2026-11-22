@@ -304,7 +304,8 @@ section {
 	margin-top: 30px;
 }
 
-.testimonial-box h6 {
+.testimonial-box h6,
+.testimonial-box .reviewer-name {
 	font-size: 22px;
 	font-weight: 700;
 	letter-spacing: .05em;
@@ -470,7 +471,8 @@ footer {
     color: #62656a;
 }
 
-footer h5 {
+footer h5,
+footer .footer-title {
 	color: #aeb3bd;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -560,7 +562,8 @@ footer small {
 	footer {
 		padding: 60px 25px;
 	}
-	footer h5 {
+	footer h5,
+footer .footer-title {
 		font-size: 18px;
 		margin-top: 30px;
 	}
@@ -686,7 +689,8 @@ footer small {
 		width: 50px;
 		height: 50px;
 	}
-	.testimonial-box h6 {
+	.testimonial-box h6,
+.testimonial-box .reviewer-name {
 		font-size: 14px;
 		margin-left: 10px;
 	}
@@ -704,4 +708,22 @@ footer small {
 #testimonial > .row {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+/* Former h5/h6 elements (footer labels, reviewer names) kept out of the heading outline */
+.footer-title {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.reviewer-name {
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+/* Inline text links inside the blue call-to-action section */
+#call-to-action p a {
+	color: #ffffff;
+	text-decoration: underline;
 }
